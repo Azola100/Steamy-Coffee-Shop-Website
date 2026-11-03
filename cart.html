@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Steamy Coffee - Your Cart</title>
+
+    <link rel="stylesheet" href="css style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Steamy Coffee</h1>
+
+    <p>Fresh Coffee, Warm Moments</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="service.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart 🛒</a>
+    </nav>
+
+</header>
+
+
+<main class="cart-page">
+
+    <h2>Your Order</h2>
+
+    <div class="cart-layout">
+
+        <!-- CART ITEMS -->
+
+        <section class="cart-products">
+
+            <h3>Shopping Cart</h3>
+
+            <div id="cart-items"></div>
+
+        </section>
+
+
+        <!-- ORDER SUMMARY -->
+
+        <section class="order-summary">
+
+            <h3>Order Summary</h3>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span id="cart-subtotal">R0</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Delivery</span>
+                <span id="delivery-fee">R20</span>
+            </div>
+
+            <hr>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <span id="cart-total">R0</span>
+            </div>
+
+            <button class="checkout-button" onclick="checkout()">
+                Proceed to Checkout
+            </button>
+
+            <a href="menu.html" class="continue-button">
+                Continue Shopping
+            </a>
+
+            <button class="clear-button" onclick="clearCart()">
+                Clear Cart
+            </button>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <p>2026 Steamy Coffee. All Rights Reserved.</p>
+
+</footer>
+
+
+<script src="javascript.js"></script>
+
+</body>
+
+</html>

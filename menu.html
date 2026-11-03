@@ -1,72 +1,166 @@
-<div class="menu-container">
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- LATTE -->
-    <div class="menu-item">
-        <img src="images/Latte.jpg" alt="Latte">
+<head>
 
-        <h3>Latte</h3>
-        <p>Warm and creamy coffee with steamed milk.</p>
-        <p class="price">R35</p>
+    <meta charset="UTF-8">
 
-        <button onclick="addToCart('Latte', 35)">
-            Add to Cart
-        </button>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Steamy Coffee - Menu</title>
+    <link rel="stylesheet" href="css style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Steamy Coffee</h1>
+
+    <p>Your favourite coffee, made with love.</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+
+</header>
+
+
+<main class="page">
+
+    <h2>Our Coffee Menu</h2>
+
+    <div class="menu-container">
+
+
+        <!-- LATTE -->
+
+        <div class="menu-item">
+
+            <img src="Latte.jpg" alt="Latte Coffee" width="300" height="230">
+
+            <h3>Latte</h3>
+
+            <p>
+                Warm and creamy coffee with steamed milk.
+            </p>
+
+            <p class="price">R35</p>
+
+            <button onclick="addToCart('Latte', 35)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- BLACK COFFEE -->
+
+        <div class="menu-item">
+
+            <img src="black coffee.jpg" alt="Black Coffee" width="300" height="230">
+
+            <h3>Black Coffee</h3>
+
+            <p>
+                Freshly brewed rich and smooth coffee.
+            </p>
+
+            <p class="price">R25</p>
+
+            <button onclick="addToCart('Black Coffee', 25)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- CAPPUCCINO -->
+
+        <div class="menu-item">
+
+            <img src="Cappuccion.jpg" alt="Cappuccion" width="300" height="230">
+            <h3>Cappuccino</h3>
+
+            <p>
+                Espresso with steamed milk and creamy foam.
+            </p>
+
+            <p class="price">R38</p>
+
+            <button onclick="addToCart('Cappuccino', 38)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- ICE COFFEE -->
+
+        <div class="menu-item">
+
+            <img src="Ice coffee.jpg" alt="Ice Coffee" width="300" height="230">
+
+            <h3>Ice Coffee</h3>
+
+            <p>
+                A refreshing chilled coffee drink.
+            </p>
+
+            <p class="price">R40</p>
+
+            <button onclick="addToCart('Ice Coffee', 40)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- HOT CHOCOLATE -->
+
+        <div class="menu-item">
+
+            <img src="Hot chocolate.jpg" alt="Hot chocolate" width="300" height="230">
+
+
+            <h3>Hot Chocolate</h3>
+
+            <p>
+                Rich and creamy hot chocolate.
+            </p>
+
+            <p class="price">R35</p>
+
+            <button onclick="addToCart('Hot Chocolate', 35)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
     </div>
 
-
-    <!-- BLACK COFFEE -->
-    <div class="menu-item">
-        <img src="images/black coffee.jpg" alt="Black Coffee">
-
-        <h3>Black Coffee</h3>
-        <p>Freshly brewed rich and smooth coffee.</p>
-        <p class="price">R25</p>
-
-        <button onclick="addToCart('Black Coffee', 25)">
-            Add to Cart
-        </button>
-    </div>
+</main>
 
 
-    <!-- CAPPUCCINO -->
-    <div class="menu-item">
-        <img src="images/Cappucccion.jpg" alt="Cappuccino">
+<footer>
 
-        <h3>Cappuccino</h3>
-        <p>Espresso with steamed milk and creamy foam.</p>
-        <p class="price">R38</p>
+    <p>
+        © 2026 Steamy Coffee. All Rights Reserved.
+    </p>
 
-        <button onclick="addToCart('Cappuccino', 38)">
-            Add to Cart
-        </button>
-    </div>
+</footer>
 
 
-    <!-- ICE COFFEE -->
-    <div class="menu-item">
-        <img src="images/Ice coffee.jpg" alt="Ice Coffee">
+<script src="script.js"></script>
 
-        <h3>Ice Coffee</h3>
-        <p>A refreshing chilled coffee drink.</p>
-        <p class="price">R40</p>
+</body>
 
-        <button onclick="addToCart('Ice Coffee', 40)">
-            Add to Cart
-        </button>
-    </div>
-
-
-    <!-- HOT CHOCOLATE -->
-    <div class="menu-item">
-        <img src="images/Hot chocolate.jpg." alt="Hot Chocolate">
-
-        <h3>Hot Chocolate</h3>
-        <p>Rich and creamy hot chocolate.</p>
-        <p class="price">R35</p>
-
-        <button onclick="addToCart('Hot Chocolate', 35)">
-            Add to Cart
-        </button>
-    </div>
-
-</div>
+</html>
